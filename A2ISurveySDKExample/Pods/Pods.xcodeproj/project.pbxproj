@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C50BB1FAAE752D398F1B945F016135 /* Pods-A2ISurveySDKExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7CC54EC740DB42E5502D8648DDC70E /* Pods-A2ISurveySDKExample-dummy.m */; };
+		17FA8097341D3C83C805908AF3915E66 /* NSString+CMDQueryStringSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A503DB7123770A2588822E1C73061FD5 /* NSString+CMDQueryStringSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F983795BFD400C34CDE38E27F9697FF /* ISO8601Serialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 5838E1513165441D59832CF42EF3B4BE /* ISO8601Serialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28F086C3CFA197F37A1F48E4201BEFFC /* CMDQueryStringValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 248205AA83B72DC2ECF9751EE8C71FAF /* CMDQueryStringValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		327F7F9500BA3DFBFC21577708D06D83 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 50904025C9578FCBC4F0FB5A174A4CC8 /* NJKWebViewProgress.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		38DA9D4D2C73378AB559DE9E52B17235 /* NJKWebViewProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C447F93506FB698E357F8B786083203 /* NJKWebViewProgress-dummy.m */; };
+		42E2D43270335D114A9EAC04442E8E4B /* ISO8601Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 42137368BBA0C6FC735F55C5E79B9C15 /* ISO8601Serialization.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4555765FD8034B4B9AA0B7356074D523 /* NJKWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BD85982E2AB0D58DCDC15FE534EEAAA /* NJKWebViewProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EDEA320391B8AB0997DCD8EEF70E242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		76C5E8098C032D5E43A198465155F91C /* CMDQueryStringReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 25851895A3C871FF86A7AEFA03FFBD51 /* CMDQueryStringReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E72EF0AB6A7FA6F284D63B741F5B734 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		915D30AE51830D2206C4E1D323A1E387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		92DAB1D1FA893767B76C35E5F405756E /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E95BD6C9EDED52160982AB9C265AFE /* NJKWebViewProgressView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A7020BBE7856B1904E1D2E11E0EF2DFB /* CMDQueryStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE036A00B77F167F1AA34F03A241DADE /* CMDQueryStringValueTransformer.m */; };
+		ACA7035171DE13D851279D92A85E5064 /* CMDQueryStringSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 353AE3996B0EEA6EAA4E237C887769C7 /* CMDQueryStringSerialization.m */; };
+		C335C9C540A0E692E5FB965495CB9266 /* ISO8601-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B03CBDEBB303B4132D0CA8A164B073 /* ISO8601-dummy.m */; };
+		C56A78D1DEE729770C12DD2B50072064 /* NSURL+CMDQueryStringSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E2312E9E0EF3E90F3D94C5BBA9A10C /* NSURL+CMDQueryStringSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5783B07618678D537283D951B6300D5 /* NSDate+ISO8601.h in Headers */ = {isa = PBXBuildFile; fileRef = F27E9445E613D2323B144831BCFDA786 /* NSDate+ISO8601.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB760C3ADDF30E9804961EEE7D5F6D77 /* NSURL+CMDQueryStringSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 623FFFF5FA638C66340BF8AD9CCD1A50 /* NSURL+CMDQueryStringSerialization.m */; };
+		E0DA55EB3C5EA40B787FFADA84F48F66 /* CMDQueryStringReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 784C952F06E5BAEDD14C1BAD453C08FF /* CMDQueryStringReader.m */; };
+		E1077D9A3E7D38935022953AC366699B /* ISO8601.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD0CEADC5016216617EFCE01605A846 /* ISO8601.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E180D5C173C4ECED1832672BCD93AEE8 /* CMDQueryStringSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 419A826259E58A0D3BACC5A5D39A46E2 /* CMDQueryStringSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E194F1D6DCE1FC68A556F5AB5F4AE605 /* NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CF2AAAD0ED6D813DE150DD47539D6B5 /* NJKWebViewProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E448F8DCAE9E059998883817AD7C90E1 /* NSString+CMDQueryStringSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9565CD59CFF208D998F8132EEFB88 /* NSString+CMDQueryStringSerialization.m */; };
+		EDB34573E566BEBCB6A2D9F765BCF1F3 /* NSDate+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = 55552A4A96540CF680C3BE6A1D62CED5 /* NSDate+ISO8601.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F37EC3621CA55461E49DBB2D339CB90C /* CMDQueryStringSerialization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BAA3AC6F223130D308AECC72FDF140 /* CMDQueryStringSerialization-dummy.m */; };
+		F90009FF829DC4A727E649B852E7A78C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F94F3A66532251EAE5EA02C3D72CDA45 /* CMDQueryStringWritingOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C81E9A653AEBEF87F29BFCA7E344A0 /* CMDQueryStringWritingOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25055B9A91DFA986AF7F93136700F22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB7CB485E21C0801790635C83376BA2;
+			remoteInfo = NJKWebViewProgress;
+		};
+		6281D9DB05F191F421C9A403C357F054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC00DAFB7D25EC44D7DF727D0C73B8FA;
+			remoteInfo = CMDQueryStringSerialization;
+		};
+		BEF00925F978E1B1855629C8D3396091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A3A7CC46C8D78B028A362DC7DC8AA3;
+			remoteInfo = ISO8601;
+		};
+		D911F1DEA6B625C8736B53018EEF103C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A3A7CC46C8D78B028A362DC7DC8AA3;
+			remoteInfo = ISO8601;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08BC7A69BB05D0B118EDCC4D2BF3505D /* libISO8601.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libISO8601.a; path = libISO8601.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE6F5B63795789677B58D8F71314182 /* Pods-A2ISurveySDKExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-A2ISurveySDKExample-resources.sh"; sourceTree = "<group>"; };
+		175B4BD0CFC8512333C35DFEC808FB67 /* Pods-A2ISurveySDKExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-A2ISurveySDKExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A6FB1BBE906DF67B9A120A05D0DE410 /* Pods-A2ISurveySDKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-A2ISurveySDKExample.release.xcconfig"; sourceTree = "<group>"; };
+		248205AA83B72DC2ECF9751EE8C71FAF /* CMDQueryStringValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CMDQueryStringValueTransformer.h; path = CMDQueryStringSerialization/CMDQueryStringValueTransformer.h; sourceTree = "<group>"; };
+		25851895A3C871FF86A7AEFA03FFBD51 /* CMDQueryStringReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CMDQueryStringReader.h; path = CMDQueryStringSerialization/CMDQueryStringReader.h; sourceTree = "<group>"; };
+		2FA9565CD59CFF208D998F8132EEFB88 /* NSString+CMDQueryStringSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+CMDQueryStringSerialization.m"; path = "CMDQueryStringSerialization/NSString+CMDQueryStringSerialization.m"; sourceTree = "<group>"; };
+		353AE3996B0EEA6EAA4E237C887769C7 /* CMDQueryStringSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CMDQueryStringSerialization.m; path = CMDQueryStringSerialization/CMDQueryStringSerialization.m; sourceTree = "<group>"; };
+		419A826259E58A0D3BACC5A5D39A46E2 /* CMDQueryStringSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CMDQueryStringSerialization.h; path = CMDQueryStringSerialization/CMDQueryStringSerialization.h; sourceTree = "<group>"; };
+		42137368BBA0C6FC735F55C5E79B9C15 /* ISO8601Serialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISO8601Serialization.m; path = Sources/ISO8601Serialization.m; sourceTree = "<group>"; };
+		484DE8BDE513048A95E79B797F491F82 /* NJKWebViewProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NJKWebViewProgress-prefix.pch"; sourceTree = "<group>"; };
+		48E2312E9E0EF3E90F3D94C5BBA9A10C /* NSURL+CMDQueryStringSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+CMDQueryStringSerialization.h"; path = "CMDQueryStringSerialization/NSURL+CMDQueryStringSerialization.h"; sourceTree = "<group>"; };
+		4FD0CEADC5016216617EFCE01605A846 /* ISO8601.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISO8601.h; path = Support/ISO8601.h; sourceTree = "<group>"; };
+		50904025C9578FCBC4F0FB5A174A4CC8 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgress.m; path = NJKWebViewProgress/NJKWebViewProgress.m; sourceTree = "<group>"; };
+		55552A4A96540CF680C3BE6A1D62CED5 /* NSDate+ISO8601.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+ISO8601.m"; path = "Sources/NSDate+ISO8601.m"; sourceTree = "<group>"; };
+		5838E1513165441D59832CF42EF3B4BE /* ISO8601Serialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISO8601Serialization.h; path = Sources/ISO8601Serialization.h; sourceTree = "<group>"; };
+		5E7CC54EC740DB42E5502D8648DDC70E /* Pods-A2ISurveySDKExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-A2ISurveySDKExample-dummy.m"; sourceTree = "<group>"; };
+		623FFFF5FA638C66340BF8AD9CCD1A50 /* NSURL+CMDQueryStringSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+CMDQueryStringSerialization.m"; path = "CMDQueryStringSerialization/NSURL+CMDQueryStringSerialization.m"; sourceTree = "<group>"; };
+		6BD85982E2AB0D58DCDC15FE534EEAAA /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgressView.h; path = NJKWebViewProgress/NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		784C952F06E5BAEDD14C1BAD453C08FF /* CMDQueryStringReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CMDQueryStringReader.m; path = CMDQueryStringSerialization/CMDQueryStringReader.m; sourceTree = "<group>"; };
+		79B03CBDEBB303B4132D0CA8A164B073 /* ISO8601-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISO8601-dummy.m"; sourceTree = "<group>"; };
+		80BAA3AC6F223130D308AECC72FDF140 /* CMDQueryStringSerialization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CMDQueryStringSerialization-dummy.m"; sourceTree = "<group>"; };
+		8C2A8C92CF4E5A2C6C3911B5FD8A8317 /* CMDQueryStringSerialization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMDQueryStringSerialization-prefix.pch"; sourceTree = "<group>"; };
+		8C447F93506FB698E357F8B786083203 /* NJKWebViewProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NJKWebViewProgress-dummy.m"; sourceTree = "<group>"; };
+		8CC7178E5BB5A5D499119A154C0E1C3C /* ISO8601.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISO8601.xcconfig; sourceTree = "<group>"; };
+		8E1CC46C89651E7B431C9980373A8698 /* ISO8601-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISO8601-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CF2AAAD0ED6D813DE150DD47539D6B5 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgress.h; path = NJKWebViewProgress/NJKWebViewProgress.h; sourceTree = "<group>"; };
+		A503DB7123770A2588822E1C73061FD5 /* NSString+CMDQueryStringSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+CMDQueryStringSerialization.h"; path = "CMDQueryStringSerialization/NSString+CMDQueryStringSerialization.h"; sourceTree = "<group>"; };
+		AA3C7980D5FCEC26BD25F7EF15B3B860 /* Pods-A2ISurveySDKExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-A2ISurveySDKExample-frameworks.sh"; sourceTree = "<group>"; };
+		B1C81E9A653AEBEF87F29BFCA7E344A0 /* CMDQueryStringWritingOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CMDQueryStringWritingOptions.h; path = CMDQueryStringSerialization/CMDQueryStringWritingOptions.h; sourceTree = "<group>"; };
+		B66F2021F063F9305759544B5D857756 /* Pods-A2ISurveySDKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-A2ISurveySDKExample.debug.xcconfig"; sourceTree = "<group>"; };
+		BCA27845FC5BDD469C7D1678C9F460D5 /* Pods-A2ISurveySDKExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-A2ISurveySDKExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D22EDF31F85E51C97A877504838F4805 /* libCMDQueryStringSerialization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCMDQueryStringSerialization.a; path = libCMDQueryStringSerialization.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E95BD6C9EDED52160982AB9C265AFE /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgressView.m; path = NJKWebViewProgress/NJKWebViewProgressView.m; sourceTree = "<group>"; };
+		D9D666E6F3CC0620048F87BB48504DEE /* NJKWebViewProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NJKWebViewProgress.xcconfig; sourceTree = "<group>"; };
+		DD702301247625303CF33036D6D7579F /* libPods-A2ISurveySDKExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-A2ISurveySDKExample.a"; path = "libPods-A2ISurveySDKExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD58AA14149155E166EF8A30C978EBE /* CMDQueryStringSerialization.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CMDQueryStringSerialization.xcconfig; sourceTree = "<group>"; };
+		EE036A00B77F167F1AA34F03A241DADE /* CMDQueryStringValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CMDQueryStringValueTransformer.m; path = CMDQueryStringSerialization/CMDQueryStringValueTransformer.m; sourceTree = "<group>"; };
+		F27E9445E613D2323B144831BCFDA786 /* NSDate+ISO8601.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+ISO8601.h"; path = "Sources/NSDate+ISO8601.h"; sourceTree = "<group>"; };
+		FAB94540B58425FF63E10B4640138843 /* libNJKWebViewProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNJKWebViewProgress.a; path = libNJKWebViewProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DDB2252030449FCDDE76C68E21C206A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDEA320391B8AB0997DCD8EEF70E242 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A73F56AEFBCC8204C1F92FD8661FA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90009FF829DC4A727E649B852E7A78C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2DC3BF08CB2CFDB8775481379D5853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915D30AE51830D2206C4E1D323A1E387 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4A08AC73F25F0AA7C85AC0DACCA5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E72EF0AB6A7FA6F284D63B741F5B734 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		242FB22B81625AE967F55731F1A4B40B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9D666E6F3CC0620048F87BB48504DEE /* NJKWebViewProgress.xcconfig */,
+				8C447F93506FB698E357F8B786083203 /* NJKWebViewProgress-dummy.m */,
+				484DE8BDE513048A95E79B797F491F82 /* NJKWebViewProgress-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NJKWebViewProgress";
+			sourceTree = "<group>";
+		};
+		293F2ABAD870423E9CEFAD1FA21A9BFF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9CF2AAAD0ED6D813DE150DD47539D6B5 /* NJKWebViewProgress.h */,
+				50904025C9578FCBC4F0FB5A174A4CC8 /* NJKWebViewProgress.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BD4984B5A3694DE00729E940DA5C9F37 /* Pods */,
+				F89488CEEBFBE7FD5A3B360660A7CFEE /* Products */,
+				B47964C3C2A61915C5813A5C6D2AFB34 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88EC597C98B53DEDF1F28D57367D6267 /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				293F2ABAD870423E9CEFAD1FA21A9BFF /* Core */,
+				F74B1CB3A3E25FA9EC8CEB4CB3B137AC /* ProgressView */,
+				242FB22B81625AE967F55731F1A4B40B /* Support Files */,
+			);
+			name = NJKWebViewProgress;
+			path = NJKWebViewProgress;
+			sourceTree = "<group>";
+		};
+		A2BDBB46F63E2E2185BC35F39BE3E284 /* CMDQueryStringSerialization */ = {
+			isa = PBXGroup;
+			children = (
+				25851895A3C871FF86A7AEFA03FFBD51 /* CMDQueryStringReader.h */,
+				784C952F06E5BAEDD14C1BAD453C08FF /* CMDQueryStringReader.m */,
+				419A826259E58A0D3BACC5A5D39A46E2 /* CMDQueryStringSerialization.h */,
+				353AE3996B0EEA6EAA4E237C887769C7 /* CMDQueryStringSerialization.m */,
+				248205AA83B72DC2ECF9751EE8C71FAF /* CMDQueryStringValueTransformer.h */,
+				EE036A00B77F167F1AA34F03A241DADE /* CMDQueryStringValueTransformer.m */,
+				B1C81E9A653AEBEF87F29BFCA7E344A0 /* CMDQueryStringWritingOptions.h */,
+				A503DB7123770A2588822E1C73061FD5 /* NSString+CMDQueryStringSerialization.h */,
+				2FA9565CD59CFF208D998F8132EEFB88 /* NSString+CMDQueryStringSerialization.m */,
+				48E2312E9E0EF3E90F3D94C5BBA9A10C /* NSURL+CMDQueryStringSerialization.h */,
+				623FFFF5FA638C66340BF8AD9CCD1A50 /* NSURL+CMDQueryStringSerialization.m */,
+				B8838A5FB255E07B5EB0FD92A416DAA6 /* Support Files */,
+			);
+			name = CMDQueryStringSerialization;
+			path = CMDQueryStringSerialization;
+			sourceTree = "<group>";
+		};
+		B47964C3C2A61915C5813A5C6D2AFB34 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA4F36D00DF0D0E43BB12C2320FED826 /* Pods-A2ISurveySDKExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B8838A5FB255E07B5EB0FD92A416DAA6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDD58AA14149155E166EF8A30C978EBE /* CMDQueryStringSerialization.xcconfig */,
+				80BAA3AC6F223130D308AECC72FDF140 /* CMDQueryStringSerialization-dummy.m */,
+				8C2A8C92CF4E5A2C6C3911B5FD8A8317 /* CMDQueryStringSerialization-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CMDQueryStringSerialization";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD4984B5A3694DE00729E940DA5C9F37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2BDBB46F63E2E2185BC35F39BE3E284 /* CMDQueryStringSerialization */,
+				BF139A5257C62C14BF7ABDF6E5958F33 /* ISO8601 */,
+				88EC597C98B53DEDF1F28D57367D6267 /* NJKWebViewProgress */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF139A5257C62C14BF7ABDF6E5958F33 /* ISO8601 */ = {
+			isa = PBXGroup;
+			children = (
+				4FD0CEADC5016216617EFCE01605A846 /* ISO8601.h */,
+				5838E1513165441D59832CF42EF3B4BE /* ISO8601Serialization.h */,
+				42137368BBA0C6FC735F55C5E79B9C15 /* ISO8601Serialization.m */,
+				F27E9445E613D2323B144831BCFDA786 /* NSDate+ISO8601.h */,
+				55552A4A96540CF680C3BE6A1D62CED5 /* NSDate+ISO8601.m */,
+				EA3FD84B41A76D2E0C84F30F78C2A7D5 /* Support Files */,
+			);
+			name = ISO8601;
+			path = ISO8601;
+			sourceTree = "<group>";
+		};
+		CA4F36D00DF0D0E43BB12C2320FED826 /* Pods-A2ISurveySDKExample */ = {
+			isa = PBXGroup;
+			children = (
+				175B4BD0CFC8512333C35DFEC808FB67 /* Pods-A2ISurveySDKExample-acknowledgements.markdown */,
+				BCA27845FC5BDD469C7D1678C9F460D5 /* Pods-A2ISurveySDKExample-acknowledgements.plist */,
+				5E7CC54EC740DB42E5502D8648DDC70E /* Pods-A2ISurveySDKExample-dummy.m */,
+				AA3C7980D5FCEC26BD25F7EF15B3B860 /* Pods-A2ISurveySDKExample-frameworks.sh */,
+				0AE6F5B63795789677B58D8F71314182 /* Pods-A2ISurveySDKExample-resources.sh */,
+				B66F2021F063F9305759544B5D857756 /* Pods-A2ISurveySDKExample.debug.xcconfig */,
+				1A6FB1BBE906DF67B9A120A05D0DE410 /* Pods-A2ISurveySDKExample.release.xcconfig */,
+			);
+			name = "Pods-A2ISurveySDKExample";
+			path = "Target Support Files/Pods-A2ISurveySDKExample";
+			sourceTree = "<group>";
+		};
+		EA3FD84B41A76D2E0C84F30F78C2A7D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CC7178E5BB5A5D499119A154C0E1C3C /* ISO8601.xcconfig */,
+				79B03CBDEBB303B4132D0CA8A164B073 /* ISO8601-dummy.m */,
+				8E1CC46C89651E7B431C9980373A8698 /* ISO8601-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ISO8601";
+			sourceTree = "<group>";
+		};
+		F74B1CB3A3E25FA9EC8CEB4CB3B137AC /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				6BD85982E2AB0D58DCDC15FE534EEAAA /* NJKWebViewProgressView.h */,
+				D6E95BD6C9EDED52160982AB9C265AFE /* NJKWebViewProgressView.m */,
+			);
+			name = ProgressView;
+			sourceTree = "<group>";
+		};
+		F89488CEEBFBE7FD5A3B360660A7CFEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D22EDF31F85E51C97A877504838F4805 /* libCMDQueryStringSerialization.a */,
+				08BC7A69BB05D0B118EDCC4D2BF3505D /* libISO8601.a */,
+				FAB94540B58425FF63E10B4640138843 /* libNJKWebViewProgress.a */,
+				DD702301247625303CF33036D6D7579F /* libPods-A2ISurveySDKExample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B4BCDA61EBAE502B3C77727CCD582B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C5E8098C032D5E43A198465155F91C /* CMDQueryStringReader.h in Headers */,
+				E180D5C173C4ECED1832672BCD93AEE8 /* CMDQueryStringSerialization.h in Headers */,
+				28F086C3CFA197F37A1F48E4201BEFFC /* CMDQueryStringValueTransformer.h in Headers */,
+				F94F3A66532251EAE5EA02C3D72CDA45 /* CMDQueryStringWritingOptions.h in Headers */,
+				17FA8097341D3C83C805908AF3915E66 /* NSString+CMDQueryStringSerialization.h in Headers */,
+				C56A78D1DEE729770C12DD2B50072064 /* NSURL+CMDQueryStringSerialization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B1AE4F7B536BC605F24480CD62BA49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1077D9A3E7D38935022953AC366699B /* ISO8601.h in Headers */,
+				1F983795BFD400C34CDE38E27F9697FF /* ISO8601Serialization.h in Headers */,
+				C5783B07618678D537283D951B6300D5 /* NSDate+ISO8601.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB81C9A5BF83E18C248983C7610A2167 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E194F1D6DCE1FC68A556F5AB5F4AE605 /* NJKWebViewProgress.h in Headers */,
+				4555765FD8034B4B9AA0B7356074D523 /* NJKWebViewProgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B5A3A7CC46C8D78B028A362DC7DC8AA3 /* ISO8601 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC29418CE800EFE7C04647DFFE4F5995 /* Build configuration list for PBXNativeTarget "ISO8601" */;
+			buildPhases = (
+				4CA1C1989C2015828C9D630DDFED7632 /* Sources */,
+				4C2DC3BF08CB2CFDB8775481379D5853 /* Frameworks */,
+				44B1AE4F7B536BC605F24480CD62BA49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISO8601;
+			productName = ISO8601;
+			productReference = 08BC7A69BB05D0B118EDCC4D2BF3505D /* libISO8601.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C49DD63C27BFEA33CDC42AD3BE56572E /* Pods-A2ISurveySDKExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBED5621C6D9EEDDA41745400A3A997 /* Build configuration list for PBXNativeTarget "Pods-A2ISurveySDKExample" */;
+			buildPhases = (
+				4BCB4A7B9C3FB2D87689D0717DD97728 /* Sources */,
+				EC4A08AC73F25F0AA7C85AC0DACCA5CB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F370CB907564D48942CB3047707E828 /* PBXTargetDependency */,
+				82C45A9F13481787792887D96B8FD87C /* PBXTargetDependency */,
+				C77560120C2F71119DC868DA03330E9A /* PBXTargetDependency */,
+			);
+			name = "Pods-A2ISurveySDKExample";
+			productName = "Pods-A2ISurveySDKExample";
+			productReference = DD702301247625303CF33036D6D7579F /* libPods-A2ISurveySDKExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CCB7CB485E21C0801790635C83376BA2 /* NJKWebViewProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51D966A99F8F3E1C7F15E6DF42CBC57B /* Build configuration list for PBXNativeTarget "NJKWebViewProgress" */;
+			buildPhases = (
+				5DCF53D88990B7A29C777B0A6A3E53D7 /* Sources */,
+				0DDB2252030449FCDDE76C68E21C206A /* Frameworks */,
+				EB81C9A5BF83E18C248983C7610A2167 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NJKWebViewProgress;
+			productName = NJKWebViewProgress;
+			productReference = FAB94540B58425FF63E10B4640138843 /* libNJKWebViewProgress.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EC00DAFB7D25EC44D7DF727D0C73B8FA /* CMDQueryStringSerialization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51840F41EE3DE76713FE936B1A118F6A /* Build configuration list for PBXNativeTarget "CMDQueryStringSerialization" */;
+			buildPhases = (
+				0A9595BE6024CA47E8443AB4D1330435 /* Sources */,
+				14A73F56AEFBCC8204C1F92FD8661FA1 /* Frameworks */,
+				0B4BCDA61EBAE502B3C77727CCD582B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFC57A88C37C332D5524818A94E75E72 /* PBXTargetDependency */,
+			);
+			name = CMDQueryStringSerialization;
+			productName = CMDQueryStringSerialization;
+			productReference = D22EDF31F85E51C97A877504838F4805 /* libCMDQueryStringSerialization.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F89488CEEBFBE7FD5A3B360660A7CFEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC00DAFB7D25EC44D7DF727D0C73B8FA /* CMDQueryStringSerialization */,
+				B5A3A7CC46C8D78B028A362DC7DC8AA3 /* ISO8601 */,
+				CCB7CB485E21C0801790635C83376BA2 /* NJKWebViewProgress */,
+				C49DD63C27BFEA33CDC42AD3BE56572E /* Pods-A2ISurveySDKExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A9595BE6024CA47E8443AB4D1330435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DA55EB3C5EA40B787FFADA84F48F66 /* CMDQueryStringReader.m in Sources */,
+				F37EC3621CA55461E49DBB2D339CB90C /* CMDQueryStringSerialization-dummy.m in Sources */,
+				ACA7035171DE13D851279D92A85E5064 /* CMDQueryStringSerialization.m in Sources */,
+				A7020BBE7856B1904E1D2E11E0EF2DFB /* CMDQueryStringValueTransformer.m in Sources */,
+				E448F8DCAE9E059998883817AD7C90E1 /* NSString+CMDQueryStringSerialization.m in Sources */,
+				CB760C3ADDF30E9804961EEE7D5F6D77 /* NSURL+CMDQueryStringSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCB4A7B9C3FB2D87689D0717DD97728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C50BB1FAAE752D398F1B945F016135 /* Pods-A2ISurveySDKExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA1C1989C2015828C9D630DDFED7632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C335C9C540A0E692E5FB965495CB9266 /* ISO8601-dummy.m in Sources */,
+				42E2D43270335D114A9EAC04442E8E4B /* ISO8601Serialization.m in Sources */,
+				EDB34573E566BEBCB6A2D9F765BCF1F3 /* NSDate+ISO8601.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCF53D88990B7A29C777B0A6A3E53D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DA9D4D2C73378AB559DE9E52B17235 /* NJKWebViewProgress-dummy.m in Sources */,
+				327F7F9500BA3DFBFC21577708D06D83 /* NJKWebViewProgress.m in Sources */,
+				92DAB1D1FA893767B76C35E5F405756E /* NJKWebViewProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F370CB907564D48942CB3047707E828 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CMDQueryStringSerialization;
+			target = EC00DAFB7D25EC44D7DF727D0C73B8FA /* CMDQueryStringSerialization */;
+			targetProxy = 6281D9DB05F191F421C9A403C357F054 /* PBXContainerItemProxy */;
+		};
+		82C45A9F13481787792887D96B8FD87C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ISO8601;
+			target = B5A3A7CC46C8D78B028A362DC7DC8AA3 /* ISO8601 */;
+			targetProxy = BEF00925F978E1B1855629C8D3396091 /* PBXContainerItemProxy */;
+		};
+		C77560120C2F71119DC868DA03330E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NJKWebViewProgress;
+			target = CCB7CB485E21C0801790635C83376BA2 /* NJKWebViewProgress */;
+			targetProxy = 25055B9A91DFA986AF7F93136700F22C /* PBXContainerItemProxy */;
+		};
+		CFC57A88C37C332D5524818A94E75E72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ISO8601;
+			target = B5A3A7CC46C8D78B028A362DC7DC8AA3 /* ISO8601 */;
+			targetProxy = D911F1DEA6B625C8736B53018EEF103C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4008B95CBA69A6796CAD5FF06E5C29C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD58AA14149155E166EF8A30C978EBE /* CMDQueryStringSerialization.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CMDQueryStringSerialization/CMDQueryStringSerialization-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5137966D941F2389D7EF373F6452E8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9D666E6F3CC0620048F87BB48504DEE /* NJKWebViewProgress.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NJKWebViewProgress/NJKWebViewProgress-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7C4C62B4F5678E0335895E47A279B78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9D666E6F3CC0620048F87BB48504DEE /* NJKWebViewProgress.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NJKWebViewProgress/NJKWebViewProgress-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8642F6B4177D73C4A36A0085C5A801B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD58AA14149155E166EF8A30C978EBE /* CMDQueryStringSerialization.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CMDQueryStringSerialization/CMDQueryStringSerialization-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9860A3766927079E8F2805FA46A7EA1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CC7178E5BB5A5D499119A154C0E1C3C /* ISO8601.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ISO8601/ISO8601-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9CE4E93D1B63F50FB7599DE4A23411C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66F2021F063F9305759544B5D857756 /* Pods-A2ISurveySDKExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F696B260A810E09B53E927CF259360AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A6FB1BBE906DF67B9A120A05D0DE410 /* Pods-A2ISurveySDKExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FDCCB69636870DECD00841997191ABDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CC7178E5BB5A5D499119A154C0E1C3C /* ISO8601.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ISO8601/ISO8601-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51840F41EE3DE76713FE936B1A118F6A /* Build configuration list for PBXNativeTarget "CMDQueryStringSerialization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4008B95CBA69A6796CAD5FF06E5C29C6 /* Debug */,
+				8642F6B4177D73C4A36A0085C5A801B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51D966A99F8F3E1C7F15E6DF42CBC57B /* Build configuration list for PBXNativeTarget "NJKWebViewProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5137966D941F2389D7EF373F6452E8A6 /* Debug */,
+				7C4C62B4F5678E0335895E47A279B78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBED5621C6D9EEDDA41745400A3A997 /* Build configuration list for PBXNativeTarget "Pods-A2ISurveySDKExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CE4E93D1B63F50FB7599DE4A23411C9 /* Debug */,
+				F696B260A810E09B53E927CF259360AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC29418CE800EFE7C04647DFFE4F5995 /* Build configuration list for PBXNativeTarget "ISO8601" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9860A3766927079E8F2805FA46A7EA1E /* Debug */,
+				FDCCB69636870DECD00841997191ABDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
